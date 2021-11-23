@@ -1,8 +1,8 @@
 import tensorflow as tf
 import numpy as np
 import cv2
-from tools import preprocess_imgs, draw_outputs
-from model import yolo_box_pred
+from yolov3.tools import preprocess_imgs, draw_outputs
+from yolov3.model import yolo_box_pred
 
 img_path = 'path to image file'
 
