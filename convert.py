@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 from absl import logging
-from model import Yolov3
+from yolov3.model import Yolov3
 
 # Function to import pretrained model weight from YOLO website
 
